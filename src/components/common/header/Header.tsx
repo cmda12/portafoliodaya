@@ -7,20 +7,6 @@ import Options from './Options';
 const Header: React.FC = () => {
   const { isDarkTheme } = useTheme();
 
-  const navigationLinks = [
-    { label: 'Inicio', url: '/' },
-    { label: 'Presentación', url: '/presentacion' },
-    { label: 'Estudios', url: '/studies' },
-    { label: 'Experiencia', url: '/experience' },
-    { label: 'Proyectos', url: '/proyects' },
-  ];
-
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
   return (
     <header className={`flex items-center justify-between px-8 h-16 w-full ${isDarkTheme ? 'bg-dark text-dark-text' : 'bg-light'}`}>
       <Options />
