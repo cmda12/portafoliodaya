@@ -25,14 +25,15 @@ const BriefcaseScreen: React.FC<BriefcaseScreenProps> = () => {
     navigate("/studies");
   };
 
+  const handleNavigateToProyect = () => {
+    navigate("/proyects");
+  };
+
   return (
     <PageWrapperAnimated>
       <div className={`flex flex-col items-center justify-center h-screen text-center`}>
         <p className={`intro-id mt-4 text-2xl font-bold ${isDarkTheme ? 'text-white' : 'text-black'}`}>
           {translations['briefcase.hello']}, {translations['briefcase.name']}
-        </p>
-        <p className={`intro-id text-2xl font-bold ${isDarkTheme ? 'text-white' : 'text-black'}`}>
-          {translations['briefcase.title']}
         </p>
         <p className={`intro-id mt-2 text-xl ${isDarkTheme ? 'text-white' : 'text-black'}`}>
           {translations['briefcase.profession']}
@@ -46,6 +47,9 @@ const BriefcaseScreen: React.FC<BriefcaseScreenProps> = () => {
           </button>
           <button className="custom-button mt-2" onClick={handleNavigateToStudies}>
             {translations['briefcase.studies']}
+          </button>
+          <button className="custom-button mt-2" onClick={handleNavigateToProyect}>
+            {translations['briefcase.see_projects']}
           </button>
         </div>
       </div>

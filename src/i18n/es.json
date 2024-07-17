@@ -2,13 +2,14 @@
     "header.title": "Encabezado",
     "header.toggleTheme": "Cambiar Tema",
     "briefcase.hello": "Hola",
-    "briefcase.name": "soy Dayana Carrera",
-    "briefcase.title": "PERO PUEDES LLAMARME Dayita",
+    "briefcase.name": "Soy Dayana Carrera",
+    "briefcase.title": "PERO PUEDES LLAMARME Daya",
     "briefcase.profession": "Soy Tecnóloga en Desarrollo de Software",
     "briefcase.see_projects": "→ Ver mis proyectos",
     "briefcase.learn_more": "→ Aprender más sobre mí",
     "briefcase.studies": "→ Mis Estudios",
     "briefcase.work_experience": "→ Experiencia laboral",
+
     "presentation.name": "¡Hola, soy Dayana!",
     "presentation.title": "Permíteme presentarme adecuadamente:",
     "presentation.first_stanza": "Soy una apasionada desarrolladora de software con experiencia significativa en C# y Unity, donde he pasado los últimos 18 meses interactivas y juegos inmersivos. Mi fascinación por la tecnología me ha llevado a explorar el dinámico mundo de JavaScript y el desarrollo web, donde estoy comprometida a expandir mis conocimientos y habilidades.",
@@ -30,5 +31,26 @@
  
     "studies.pomasqui.institution": "Institucion Educativa Pomasqui",
     "studies.pomasqui.degree": "Bachillerato Técnico de Servicios",
-    "studies.pomasqui.description": "En la Institución Educativa Pomasqui, completé mi Bachillerato Técnico de Servicios, donde adquirí conocimientos en una variedad de áreas técnicas y prácticas. El programa incluyó formación en gestión de servicios, habilidades de comunicación efectiva, y principios básicos de administración y contabilidad. Participé en talleres y proyectos que me ayudaron a desarrollar competencias en trabajo en equipo y resolución de problemas, además de recibir una educación integral que abarcó tanto ciencias como humanidades."
+    "studies.pomasqui.description": "En la Institución Educativa Pomasqui, completé mi Bachillerato Técnico de Servicios, donde adquirí conocimientos en una variedad de áreas técnicas y prácticas. El programa incluyó formación en gestión de servicios, habilidades de comunicación efectiva, y principios básicos de administración y contabilidad. Participé en talleres y proyectos que me ayudaron a desarrollar competencias en trabajo en equipo y resolución de problemas, además de recibir una educación integral que abarcó tanto ciencias como humanidades.",
+
+    "project.elections.institution":"INSTITUTO YAVIRAC",
+    "protect.elections.name":"Sistema de Elecciones",
+    "proyect.elections.description": "El 'Sistema de Elecciones' desarrollado en el Instituto Yavirac es una plataforma dedicada a la administración de procesos electorales. Se ha implementado una robusta administración de accesos y controles de seguridad para garantizar la integridad y confidencialidad de los datos. La arquitectura incluye medidas avanzadas para la gestión de roles, autenticación segura y autorización granular, asegurando que solo usuarios autorizados puedan acceder a las funciones críticas del sistema.",
+    "protect.elections.status":"Actualmente se encuentra en la etapa de pruebas finales antes de ser desplegado. Se han integrado capturas del diseño en Figma para revisión y validación.",
+
+    "project.menu.institution":"TOC SYSTEM",
+    "protect.menu.name":"Administracion de Menú",
+    "proyect.menu.description": "El 'Sistema de Administración de Menú' facilita la gestión de pedidos y la administración de órdenes en establecimientos gastronómicos. La parte web está siendo desarrollada en React, mientras que la aplicación móvil se está construyendo en React Native. Este enfoque permite una experiencia consistente y optimizada tanto para usuarios de escritorio como móviles.",
+    "protect.menu.status":"El desarrollo está en fase avanzada y se espera completar próximamente. Actualmente, se pueden compartir capturas de pantalla del diseño en Figma para revisión.",
+
+    "project.game.institution":"TOC SYSTEM",
+    "protect.game.name":"Juegos educativos",
+    "proyect.game.description": "El juego educativo en 2D desarrollado en Unity y C# está diseñado con varios niveles educativos. Ofrece una experiencia interactiva para los usuarios, centrada en la resolución de problemas y el aprendizaje interactivo. El proyecto se encuentra actualmente estancado debido a limitaciones de recursos, aunque se espera retomarlo en el futuro para completar y lanzar el juego.",
+    "protect.game.status":"Actualmente, no se pueden compartir imágenes debido a restricciones.",
+
+    "options.home":"Inicio",
+    "options.presentation":"Presentación",
+    "options.stuies": "Estudios",
+    "options.work_experience": "Experiencia",
+    "options.proyects": "Proyectos"
 }

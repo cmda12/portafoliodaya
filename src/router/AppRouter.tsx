@@ -4,6 +4,7 @@ import BriefcaseScreen from '../pages/modules/briefcases/BriefcaseScreen';
 import PresentationScreen from '../pages/modules/presentation/PresentationScreen';
 import WorkExperienceScreen from '../pages/modules/presentation/WorkExperienceScreen';
 import MyStudiesScreen from '../pages/modules/presentation/MyStudiesScreen';
+import MyProyectScreen from '../pages/modules/presentation/MyProyectScreen';
 
 const AppRouter: React.FC = () => {
   return (
@@ -15,6 +16,7 @@ const AppRouter: React.FC = () => {
             <Route path="/presentacion" element={<PresentationScreen />} />
             <Route path="/experience" element={<WorkExperienceScreen />} />
             <Route path="/studies" element={<MyStudiesScreen />} />
+            <Route path="/proyects" element={<MyProyectScreen />} />
           </Routes>
         </main>
       </div>
