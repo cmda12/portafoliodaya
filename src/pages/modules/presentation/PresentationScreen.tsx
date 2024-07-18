@@ -68,7 +68,7 @@ const PresentationScreen: React.FC = () => {
               onClick={handleDownloadCV}
               className={`mt-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-700 transition duration-300`}
             >
-              {translations['presentation.download_cv']}
+              <a href="https://drive.google.com/file/d/1sQeb7bWDa3wCWM6sOFZXA56s8GF6O_Cb/view?usp=sharing" target="_blank">{translations['presentation.download_cv']}</a>
             </button>
           </div>
         </div>
